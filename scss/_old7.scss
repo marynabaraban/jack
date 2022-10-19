@@ -1,0 +1,44 @@
+main{
+    background: $font_bg_main;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.old7{
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+    @media (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 20% 0 0 0;
+    }
+
+    &__about{
+        padding: 2rem 4rem;
+        max-width: 450px;
+    }    
+
+    &__img{
+        width: 100%;
+    }
+
+    
+}
+
+.old7__add-flavor{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.svg-icon{
+    color: aliceblue;
+}
